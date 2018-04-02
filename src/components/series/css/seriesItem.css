@@ -1,0 +1,16 @@
+.seriesItem {
+    background-color: #DEDDF0;
+    min-height: 20px;
+    border-color: #201153;
+    border-style: dotted;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.seriesName {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}

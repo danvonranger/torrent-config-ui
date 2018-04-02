@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './series.css';
+import Series from './series/series'
 
-class Series extends Component {
+class PageLayout extends Component {
     constructor() {
         super();
         this.state = {
@@ -18,15 +18,11 @@ class Series extends Component {
     render() {
         return (
             <div>
-                <h2>Current TV Series</h2>
-                <ul>
-                    {this.state.series.map(show =>
-                        <li key={show.id}>{show.name}</li>
-                    )}
-                </ul>
+                <h2>TV Show Configuration Data</h2>
+                <Series series={this.state.series}/>
             </div>
         );
     }
 }
 
-export default Series;
+export default PageLayout;

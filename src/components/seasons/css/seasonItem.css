@@ -1,0 +1,9 @@
+.completedSeason {
+    color: green;
+    font-weight: bold;
+}
+
+.seasonData {
+    text-align: left;
+    padding-right: 10px;
+}
